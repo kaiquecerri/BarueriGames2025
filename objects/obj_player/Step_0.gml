@@ -17,27 +17,31 @@ hspd = move * spd;
 vspd = vspd + grv;
 
 if key_dash and hspd != 0 and dash_delay <= -60 {
-	spd = dash
-	p_status = "dash"
-	alarm[0] = 30
-	dash_delay = def_dash_delay
+    spd = dash
+    p_status = "dash"
+    alarm[0] = 30  
+    dash_delay = def_dash_delay  
+}
+
+
+if dash_delay > -60 {
+    dash_delay -= 1
 }
 
 if p_status == "dash" {
 	hspd = spd
 }
 
-if dash_delay > -60 {
-	dash_delay -= 1
-}
+
 
 //COLISÃO HORIZONTAL
 if (place_meeting(x + hspd, y, obj_wall)) {
     while (!place_meeting(x + sign(hspd), y, obj_wall)) {
         x += sign(hspd);
+	
     }
     hspd = 0;
-	alarm[0] = 0;
+	spd = def_spd;
 }
 
 x += hspd;
