@@ -1,0 +1,6 @@
+draw_set_halign(fa_center)
+draw_set_color(c_red)
+draw_set_font(fnt_gameover)
+draw_text(room_width/2,room_height/2-16,"FIM DE JOGO! :c")
+draw_set_color(c_white)
+draw_text(room_width/2,room_height/2+16,"PRESSIONE ESPACO PARA CONTINUAR")

@@ -3,7 +3,7 @@ max_hp = hp;
 delay = 0
 def_delay = 60;
 strength = 5;
-spd = 0
+spd = 1.3
 can_walk = true;
 
 side = choose(-1,1)

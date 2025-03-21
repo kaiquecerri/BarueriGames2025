@@ -65,7 +65,7 @@ if (place_meeting(x, y + 1, obj_wall) and key_jump) {
 
 
 
-if (key_punch and punch_delay <= 0) {
+if (key_punch and punch_delay <= 0 and p_status != "dead") {
     punch_delay = punch_delay_def;
     punch_col = instance_create_layer(x, y, layer, obj_punch_collision);
     show_debug_message("soco");
