@@ -8,8 +8,8 @@
   "name":"obj_punch_collision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Player",
+    "path":"folders/Cenário/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

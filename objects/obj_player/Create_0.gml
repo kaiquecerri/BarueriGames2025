@@ -30,6 +30,6 @@ max_hp = hp;
 
 function damage(s){
 	hp -= s;
-	vspd -= jump
+	vspd = -10
 }
 

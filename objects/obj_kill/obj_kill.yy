@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "path":"folders/Cenário/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

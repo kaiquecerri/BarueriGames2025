@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Conjuntos de tiles",
-    "path":"folders/Conjuntos de tiles.yy",
+    "path":"folders/Cenário/Conjuntos de tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
