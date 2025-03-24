@@ -29,7 +29,9 @@ max_hp = hp;
 
 
 function damage(s){
+	if p_status != "dead"{
 	hp -= s;
 	vspd = -10
+	}
 }
 

@@ -144,3 +144,5 @@ last_move = move
 }
 
 
+if hp > max_hp hp = max_hp
+
