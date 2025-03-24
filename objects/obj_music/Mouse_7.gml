@@ -1,0 +1,1 @@
+if global.music < 1 global.music += 0.1

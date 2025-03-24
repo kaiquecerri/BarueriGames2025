@@ -1,0 +1,1 @@
+if global.sound > 0 global.sound -= 0.1
