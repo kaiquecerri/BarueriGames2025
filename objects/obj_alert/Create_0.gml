@@ -1,0 +1,1 @@
+_message = "Pressione E para interagir"

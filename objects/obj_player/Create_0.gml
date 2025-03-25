@@ -1,5 +1,7 @@
 randomize()
 
+kay = false
+
 spd = 2;
 def_spd = 2;
 hspd= 0;
@@ -33,5 +35,12 @@ function damage(s){
 	hp -= s;
 	vspd = -10
 	}
+}
+
+dead_time = 90
+function dead(){
+	if dead_time <= 0
+	room_goto(rm_gameover)
+	else dead_time -=1
 }
 

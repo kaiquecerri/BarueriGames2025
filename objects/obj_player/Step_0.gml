@@ -122,6 +122,8 @@ if (punch_delay <= 0) {
 
 if hp <= 0 {
 	p_status = "dead"
+
+	dead()
 }
 
 
