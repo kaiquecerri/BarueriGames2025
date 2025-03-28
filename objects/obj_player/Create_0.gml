@@ -1,6 +1,6 @@
 randomize()
 
-kay = false
+key = false
 
 spd = 2;
 def_spd = 2;
@@ -10,7 +10,7 @@ grv = 0.7;
 jump = 10;
 dash = spd * 2.5;
 dash_delay = 0
-def_dash_delay = 60
+def_dash_delay = 120
 
 
 punch_delay = 0
@@ -34,6 +34,9 @@ function damage(s){
 	if p_status != "dead"{
 	hp -= s;
 	vspd = -10
+	
+	pitch = random_range(0.9,1.3)
+	audio_play_sound(snd_damage,0,0,global.sound,0,pitch)
 	}
 }
 

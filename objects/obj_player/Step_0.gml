@@ -1,4 +1,5 @@
 //KEYS
+
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check(vk_space);
@@ -16,15 +17,18 @@ if (p_status != "attack"){
 hspd = move * spd;
 vspd = vspd + grv;
 
-if key_dash and hspd != 0 and dash_delay <= -60 {
+if key_dash and hspd != 0 and dash_delay <= 0 {
     spd = dash
     p_status = "dash"
     alarm[0] = 30  
     dash_delay = def_dash_delay  
+	if !audio_is_playing(snd_dash) {
+	audio_play_sound(snd_dash,0,0,global.sound,0,pitch)
+	}
 }
 
 
-if dash_delay > -60 {
+if dash_delay > 0 {
     dash_delay -= 1
 }
 
@@ -62,7 +66,6 @@ if (place_meeting(x, y + 1, obj_wall) and key_jump) {
 }
 
 #endregion
-
 
 
 if (key_punch and punch_delay <= 0 and p_status != "dead") {
@@ -147,4 +150,25 @@ last_move = move
 
 
 if hp > max_hp hp = max_hp
+
+#region SOM
+
+pitch = random_range(0.9,1.3)
+
+if hspd != 0 and vspd == 0 {
+	if !audio_is_playing(snd_walk) {
+	audio_play_sound(snd_walk,0,0,global.sound,0,pitch)
+	}
+}
+
+if (place_meeting(x, y + 1, obj_wall) and key_jump and jump != 0) {
+	if !audio_is_playing(snd_jump) {
+	audio_play_sound(snd_jump,0,0,global.sound,0,pitch)
+	}
+}
+
+
+
+
+#endregion
 
