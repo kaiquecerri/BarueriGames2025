@@ -52,8 +52,8 @@
   ],
   "name":"rm_01boss",
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"01",
+    "path":"folders/Cenas/Levels/01.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
