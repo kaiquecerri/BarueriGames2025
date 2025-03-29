@@ -1,1 +1,2 @@
-game_end()
+persistent = false
+room_goto(rm_menu)

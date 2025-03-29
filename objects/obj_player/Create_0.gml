@@ -6,7 +6,7 @@ spd = 2;
 def_spd = 2;
 hspd= 0;
 vspd= 0;
-grv = 0.7;
+grv = global.grv;
 jump = 10;
 dash = spd * 2.5;
 dash_delay = 0
@@ -22,6 +22,8 @@ p_status = "idle"
 hp = 20;
 max_hp = hp;
 
+hit = false;
+
 //idle
 //run
 //attack
@@ -34,6 +36,8 @@ function damage(s){
 	if p_status != "dead"{
 	hp -= s;
 	vspd = -10
+	hit = true
+	alarm[1] = 30
 	
 	pitch = random_range(0.9,1.3)
 	audio_play_sound(snd_damage,0,0,global.sound,0,pitch)
@@ -42,8 +46,10 @@ function damage(s){
 
 dead_time = 90
 function dead(){
-	if dead_time <= 0
+	if dead_time <= 0 {
+	image_alpha = 1
 	room_goto(rm_gameover)
+	}
 	else dead_time -=1
 }
 

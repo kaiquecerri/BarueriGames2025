@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_sodacan",
   "bboxMode":2,
-  "bbox_bottom":37,
+  "bbox_bottom":42,
   "bbox_left":0,
   "bbox_right":28,
   "bbox_top":0,

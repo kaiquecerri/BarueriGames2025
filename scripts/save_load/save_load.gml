@@ -15,6 +15,7 @@ function config_load(){
 	}
 	
 	window_set_fullscreen(global.fullscreen);
+	global.grv = 0.7
 }
 
 function config_save(){
