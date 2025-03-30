@@ -8,6 +8,7 @@ key_dash = keyboard_check_pressed(vk_shift)
 
 
 #region MOVIMENTAÇÃO
+
 if (p_status != "attack"){
     var move = key_right - key_left;
 } else {

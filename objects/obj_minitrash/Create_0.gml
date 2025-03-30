@@ -5,3 +5,4 @@ hp = 10
 max_hp = hp
 spd = 1.5
 hspeed = side * spd;
+type = "minimetal"

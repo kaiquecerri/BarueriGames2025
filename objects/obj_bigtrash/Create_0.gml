@@ -7,3 +7,5 @@ spd = 0.9
 hspeed = side * spd;
 
 alarm[2] = 30
+
+type = "megametal"

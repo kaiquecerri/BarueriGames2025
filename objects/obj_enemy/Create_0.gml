@@ -17,11 +17,11 @@ side = choose(-1,1)
 image_xscale = side
 hspeed = side * spd;
 
-def_sprite_vel = sprite_get_speed(sprite_index)
+def_sprite_vel = image_speed
 
 function walk_delay(){
 	if obj_player.p_status != "dead"{
-	sprite_set_speed(sprite_index,0,spritespeed_framespersecond)
+	image_speed = 0
 	hspeed = 0
 	alarm[0] = 45
 	}
