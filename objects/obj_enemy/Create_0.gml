@@ -1,3 +1,5 @@
+type = "metal"
+
 vspd = 0
 grv = global.grv
 

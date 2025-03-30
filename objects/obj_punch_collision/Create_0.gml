@@ -7,7 +7,13 @@ enemy.hp -= obj_player.punch_strength
 enemy.hit_delay()
 
 	pitch = random_range(0.9,1.3)
-	audio_play_sound(snd_attack,0,0,global.sound,0,pitch)
+	
+	switch(enemy.type){
+		case "rat" : snd = snd_attack_rat break;
+		case "metal" : snd = snd_attack break;
+		default : snd = snd_attack break;
+	}
+	audio_play_sound(snd,0,0,global.sound,0,pitch)
 } else {
 	pitch = random_range(0.9,1.3)
 	audio_play_sound(snd_attack_miss,0,0,global.sound,0,pitch)

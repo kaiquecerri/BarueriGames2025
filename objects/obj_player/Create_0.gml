@@ -1,5 +1,7 @@
 randomize()
 
+level_coins = 0
+
 key = false
 
 spd = 2;

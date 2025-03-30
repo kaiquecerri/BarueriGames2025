@@ -1,0 +1,1 @@
+instance_create_layer(x,y-sprite_get_height(sprite_index)-12,layer,obj_alert)
