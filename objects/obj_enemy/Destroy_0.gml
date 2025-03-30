@@ -1,0 +1,1 @@
+obj_player.level_coins += coin

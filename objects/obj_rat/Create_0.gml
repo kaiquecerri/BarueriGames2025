@@ -7,4 +7,6 @@ strength = 7;
 spd = 1.7
 hspeed = side * spd;
 
+coin = 2
+
 type = "rat"

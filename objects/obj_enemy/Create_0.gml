@@ -13,6 +13,8 @@ spd = 1.3
 can_walk = true;
 hit = false;
 
+coin = 1
+
 side = choose(-1,1)
 image_xscale = side
 hspeed = side * spd;

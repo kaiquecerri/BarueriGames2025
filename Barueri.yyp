@@ -45,6 +45,7 @@
     {"id":{"name":"fnt_gui","path":"fonts/fnt_gui/fnt_gui.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"obj_alert","path":"objects/obj_alert/obj_alert.yy",},},
+    {"id":{"name":"obj_bigtrash_boss","path":"objects/obj_bigtrash_boss/obj_bigtrash_boss.yy",},},
     {"id":{"name":"obj_bigtrash","path":"objects/obj_bigtrash/obj_bigtrash.yy",},},
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},},
     {"id":{"name":"obj_config","path":"objects/obj_config/obj_config.yy",},},
