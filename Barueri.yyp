@@ -145,7 +145,6 @@
     {"id":{"name":"spr_park02","path":"sprites/spr_park02/spr_park02.yy",},},
     {"id":{"name":"spr_park03","path":"sprites/spr_park03/spr_park03.yy",},},
     {"id":{"name":"spr_park04","path":"sprites/spr_park04/spr_park04.yy",},},
-    {"id":{"name":"spr_park05","path":"sprites/spr_park05/spr_park05.yy",},},
     {"id":{"name":"spr_pgui","path":"sprites/spr_pgui/spr_pgui.yy",},},
     {"id":{"name":"spr_plataform","path":"sprites/spr_plataform/spr_plataform.yy",},},
     {"id":{"name":"spr_player_attack","path":"sprites/spr_player_attack/spr_player_attack.yy",},},

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":66.46154,
+  "duration":44.30771,
   "name":"msc_01",
   "parent":{
     "name":"Músicas",
