@@ -52,6 +52,9 @@ function dead(){
 	image_alpha = 1
 	room_goto(rm_gameover)
 	}
-	else dead_time -=1
+	else {
+		dead_time -=1
+		hp = -1000
+		}
 }
 

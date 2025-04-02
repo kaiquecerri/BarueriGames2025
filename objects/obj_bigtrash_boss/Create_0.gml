@@ -5,6 +5,9 @@ hp = 50
 max_hp = hp
 spd = 0.9
 hspeed = side * spd;
+delay = 40
+
+coin = 30
 
 alarm[2] = 30
 

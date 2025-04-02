@@ -1,9 +1,12 @@
 // Inherit the parent event
 event_inherited();
-strength = 2
+
 hp = 10
-max_hp = hp
-spd = 1.5
+max_hp = hp;
+strength = 4;
+spd = 1.4
 hspeed = side * spd;
-type = "minimetal"
+
 coin = 1
+
+type = "rat"
