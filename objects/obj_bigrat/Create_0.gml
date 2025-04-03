@@ -1,5 +1,14 @@
 // Inherit the parent event
 event_inherited();
+temp_msc = global.music * 0.1
+
+audio_sound_gain(global.mscboss2,temp_msc,1)
+
+audio_play_sound(snd_boss_spawn,10,0,global.sound)
+
+
+
+alarm[10] = 60
 
 hp = 75
 max_hp = hp;

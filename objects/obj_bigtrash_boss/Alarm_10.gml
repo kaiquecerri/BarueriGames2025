@@ -1,0 +1,1 @@
+audio_sound_gain(global.mscboss,global.music,1)

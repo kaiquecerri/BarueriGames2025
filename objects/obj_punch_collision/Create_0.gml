@@ -11,7 +11,7 @@ enemy.hit_delay()
 	switch(enemy.type){
 		case "rat" : snd = snd_attack_rat break;
 		case "metal" : snd = snd_attack break;
-		case "minimetal" : snd = snd_attack pitch = random_range(1.5,1.8) break;
+		case "minimetal" : snd = snd_damage pitch = random_range(1.5,1.8) break;
 		case "megametal" : snd = snd_attack pitch = random_range(0.5,0.8) break;
 		default : snd = snd_attack break;
 	}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"msc_03boss",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":333.0351,
+  "name":"msc_03boss",
+  "parent":{
+    "name":"Músicas",
+    "path":"folders/Músicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"msc_03boss.mp3",
+  "type":0,
+  "volume":1.0,
+}

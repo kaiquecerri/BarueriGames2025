@@ -16,7 +16,7 @@ if room == rm_01 {
 
 if room == rm_01boss {
 	if !audio_is_playing(msc_01boss) {
-		audio_play_sound(msc_01boss,0,1,global.music)
+		global.mscboss = audio_play_sound(msc_01boss,0,1,global.music)
 	}
 } else if audio_is_playing(msc_01boss) {
 	audio_stop_sound(msc_01boss)
@@ -30,6 +30,32 @@ if room == rm_02 {
 	audio_stop_sound(msc_02)
 }
 
+if room == rm_02boss {
+	if !audio_is_playing(msc_02boss) {
+		global.mscboss2 = audio_play_sound(msc_02boss,0,1,global.music)
+	}
+} else if audio_is_playing(msc_02boss) {
+	audio_stop_sound(msc_02boss)
+}
+
+if room == rm_03 {
+	if !audio_is_playing(msc_03) {
+		audio_play_sound(msc_03,0,1,global.music)
+	}
+} else if audio_is_playing(msc_03) {
+	audio_stop_sound(msc_03)
+}
+
+
+if room == rm_03boss {
+	if !audio_is_playing(msc_03boss) {
+		audio_play_sound(msc_03boss,0,1,global.music)
+	}
+} else if audio_is_playing(msc_03boss) {
+	audio_stop_sound(msc_03boss)
+}
+
+
 if room == rm_gameover {
 	if !audio_is_playing(msc_gameover) {
 		audio_play_sound(msc_gameover,0,0,global.music)
@@ -37,3 +63,4 @@ if room == rm_gameover {
 } else if audio_is_playing(msc_gameover) {
 	audio_stop_sound(msc_gameover)
 }
+

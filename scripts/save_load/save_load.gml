@@ -7,13 +7,14 @@ function config_load(){
 		global.sound = file_text_read_real(handle);
 		global.music = file_text_read_real(handle);
 		global.actual_level = file_text_read_real(handle);
+		global.coins = file_text_read_real(handle);
 		
 		file_text_close(handle)
 	} catch(_exception) {
 		global.fullscreen = false
 		global.sound = 0.5
 		global.music = 0.5
-		global.actual_level = 1
+		global.coins = 0
 	}
 	
 	window_set_fullscreen(global.fullscreen);
@@ -28,5 +29,6 @@ function config_save(){
 	file_text_write_real(handle, global.sound)
 	file_text_write_real(handle, global.music)
 	file_text_write_real(handle, global.actual_level)
+	file_text_write_real(handle, global.coins)
 	file_text_close(handle)
 }
