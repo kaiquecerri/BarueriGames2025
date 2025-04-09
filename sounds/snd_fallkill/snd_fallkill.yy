@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.1755,
+  "duration":1.1755102,
   "name":"snd_fallkill",
   "parent":{
     "name":"Sons",

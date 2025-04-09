@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":333.0351,
+  "duration":333.0,
   "name":"msc_03boss",
   "parent":{
     "name":"Músicas",

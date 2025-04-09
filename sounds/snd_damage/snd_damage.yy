@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.36966,
+  "duration":0.36965987,
   "name":"snd_damage",
   "parent":{
     "name":"Sons",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.385193,
+  "duration":0.38519275,
   "name":"snd_jump",
   "parent":{
     "name":"Sons",
