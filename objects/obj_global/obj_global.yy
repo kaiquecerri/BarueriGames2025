@@ -9,8 +9,8 @@
   "name":"obj_global",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Menu.yy",
+    "name":"Barueri",
+    "path":"Barueri.yyp",
   },
   "parentObjectId":null,
   "persistent":true,

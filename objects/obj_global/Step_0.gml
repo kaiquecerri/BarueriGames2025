@@ -49,7 +49,7 @@ if room == rm_03 {
 
 if room == rm_03boss {
 	if !audio_is_playing(msc_03boss) {
-		audio_play_sound(msc_03boss,0,1,global.music)
+		global.boss_music = audio_play_sound(msc_03boss,0,1,global.music)
 	}
 } else if audio_is_playing(msc_03boss) {
 	audio_stop_sound(msc_03boss)

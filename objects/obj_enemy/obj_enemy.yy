@@ -16,7 +16,10 @@
     "name":"Inimigo",
     "path":"folders/Cenário/Inimigo.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemy_hit",
+    "path":"objects/obj_enemy_hit/obj_enemy_hit.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
