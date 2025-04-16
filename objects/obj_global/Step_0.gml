@@ -64,3 +64,20 @@ if room == rm_gameover {
 	audio_stop_sound(msc_gameover)
 }
 
+if room == rm_comics {
+	if !audio_is_playing(msc_comics) {
+		audio_play_sound(msc_comics,0,0,global.music)
+		}
+} else if audio_is_playing(msc_comics) {
+	audio_stop_sound(msc_comics)
+}
+
+if room == rm_credits {
+	if !audio_is_playing(msc_credits) {
+		audio_play_sound(msc_credits,0,0,global.music)
+	}
+} else if audio_is_playing(msc_credits) {
+	audio_stop_sound(msc_credits)
+}
+
+

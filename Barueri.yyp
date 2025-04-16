@@ -116,6 +116,8 @@
     {"id":{"name":"msc_02boss","path":"sounds/msc_02boss/msc_02boss.yy",},},
     {"id":{"name":"msc_03","path":"sounds/msc_03/msc_03.yy",},},
     {"id":{"name":"msc_03boss","path":"sounds/msc_03boss/msc_03boss.yy",},},
+    {"id":{"name":"msc_comics","path":"sounds/msc_comics/msc_comics.yy",},},
+    {"id":{"name":"msc_credits","path":"sounds/msc_credits/msc_credits.yy",},},
     {"id":{"name":"msc_gameover","path":"sounds/msc_gameover/msc_gameover.yy",},},
     {"id":{"name":"msc_menu","path":"sounds/msc_menu/msc_menu.yy",},},
     {"id":{"name":"snd_attack_miss","path":"sounds/snd_attack_miss/snd_attack_miss.yy",},},

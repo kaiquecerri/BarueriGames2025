@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"msc_03",
+  "%Name":"msc_comics",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":195.04762,
-  "name":"msc_03",
+  "duration":81.61814,
+  "name":"msc_comics",
   "parent":{
     "name":"Músicas",
     "path":"folders/Músicas.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"msc_03.mp3",
+  "soundFile":"msc_comics.mp3",
   "type":0,
   "volume":1.0,
 }
